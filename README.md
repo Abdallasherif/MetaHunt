@@ -68,7 +68,7 @@ python crawler.py
 score = (allowed / (allowed + disallowed)) * 70 + (sitemaps / (sitemaps + 1000)) * 30
 
 
-🙌 Authors
+## 🙌 Authors
 Abdalla Sherif Omar – Lead Developer & Analyst
 Salma Kurdi
 Zeyad Atef
