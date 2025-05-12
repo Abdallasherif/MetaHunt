@@ -69,7 +69,7 @@ score = (allowed / (allowed + disallowed)) * 70 + (sitemaps / (sitemaps + 1000))
 
 
 ## 🙌 Authors
-Abdalla Sherif Omar – Lead Developer & Analyst
-Salma Kurdi
-Zeyad Atef
-Ahmed Sharaf
+- Abdalla Sherif Omar 
+- Salma Kurdi
+- Zeyad Atef
+- Ahmed Sharaf
