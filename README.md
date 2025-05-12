@@ -17,13 +17,15 @@ MetaHunt is a full-stack intelligent web crawler and data analysis dashboard tha
 ---
 
 ## 📂 Project Structure
+```
 MetaHunt/
 │
-├── MetaHunt.py # Main web crawler logic using Selenium
-├── Streamlit.py # Dashboard application
-├── EtsyData.xlsx # Output: collected & cleaned product data
-├── README.md # You're reading it 😉
-└── requirements.txt # Dependencies
+├── MetaHunt.py         # Main web crawler logic using Selenium
+├── Streamlit.py        # Dashboard application for displaying data
+├── EtsyData.xlsx       # Output file: collected & cleaned product data
+├── README.md           # You're reading it 😉
+└── requirements.txt    # List of dependencies for the project
+```
 
 
 
@@ -49,12 +51,15 @@ MetaHunt/
 > ⚠ Ensure [Chrome](https://www.google.com/chrome/) is installed and matches your ChromeDriver version.
 
 # Clone the repo
+```bash
 git clone https://github.com/yourusername/MetaHunt.git
 cd MetaHunt
+```
 
 # Install dependencies
+```
 pip install -r requirements.txt
-
+```
 ## ▶️ Run the Crawler
 python crawler.py
 - This will:
@@ -63,9 +68,11 @@ python crawler.py
 - Parse latest items from shop RSS feeds
 - Fetch selected data using Etsy's public API
 - Save all data to EtsyData.xlsx
+  
 
 ## 🤖 Crawlability Score Formula
 score = (allowed / (allowed + disallowed)) * 70 + (sitemaps / (sitemaps + 1000)) * 30
+
 
 
 ## 🙌 Authors
@@ -73,3 +80,4 @@ score = (allowed / (allowed + disallowed)) * 70 + (sitemaps / (sitemaps + 1000))
 - Salma Kurdi
 - Zeyad Atef
 - Ahmed Sharaf
+  
