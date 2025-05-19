@@ -43,7 +43,7 @@ WebDriverWait(driver, 20).until(
 print("🔄 Page loaded, starting to scroll...")
 
 # Infinite Scroll: Scroll down the page to load more products
-SCROLL_PAUSES = 1  # Number of times to scroll down
+SCROLL_PAUSES = 2  # Number of times to scroll down
 product_data = []
 
 for i in range(SCROLL_PAUSES):
